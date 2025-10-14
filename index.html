@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Document</title>
+</head>
+<body>
+    <script>
+    
+function orlogo(){
+    let ordun = parseInt(prompt("Та орлого оруулах мөнгөн дүнгээ оруулна уу:"));
+if(ordun<=0){
+    alert("Буруу утга оруулсан байна")
+ }else if(ordun>=0)
+ uldegdel+=ordun;}
+
+function zarlaga(){
+    let zar = parseInt(prompt("Та зарлага гаргах мөнгөн дүнгээ оруулна уу:"));
+if(zar<=0){
+    alert("Буруу утга оруулсан байна")
+}else if(uldegdel<=zar){
+    alert("dansni vldegdel xvreltsexqu bna")
+}else if(uldegdel>=zar)
+    uldegdel-=zar;
+}
+ 
+
+let uldegdel =0;
+let utga = "";
+while (utga != "123"){
+utga = prompt("Та нууц үгээ оруулна уу!");
+if (utga == "123") {
+while(true) {
+let vildel = prompt("1. Орлого оруулах \n2. Зарлага гаргах \n3. Үлдэгдэл шалгах \n4. Гарах");
+if (vildel == "1"){
+orlogo();
+} else if (vildel == "2"){
+zarlaga();
+} else if (vildel == "3"){
+alert("Таны дансны үлдэгдэл: " + uldegdel + "₮");
+} else if (vildel == "4"){
+alert("Системээс гарлаа. Баярлалаа!");
+break;
+            } 
+        }
+    } else {
+        alert("Нууц үг буруу байна!");
+    }}
+ for (let n =500 ; n<1000;n +=23)
+console.log(n +"Энэ тоо 23т хуваагддаг" )
+let a= "JavaScript";
+let b = "";
+
+for (let i = 0; i < a.length; i++) {
+  if (a[i] === "a") {b += "d";
+  } else { b +=a[i];
+  }
+}
+
+console.log(b);
+
+    </script>
+    
+</body>
+</html>
